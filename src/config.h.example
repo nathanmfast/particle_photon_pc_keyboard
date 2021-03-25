@@ -1,0 +1,15 @@
+// WiFi
+#define CONFIG_WIFI_SSID "YourWiFiSSID"
+#define CONFIG_WIFI_PASSWORD "YourWiFiPassword"
+#define CONFIG_WIFI_ALTERNATE_SSID "YourAlternateWiFiSSID"
+#define CONFIG_WIFI_ALTERNATE_PASSWORD "YourAlternateWiFiPassword"
+
+// MQTT
+#define CONFIG_MQTT_HOST "192.168.1.111"
+#define CONFIG_MQTT_PORT 1883
+#define CONFIG_MQTT_USERNAME "your_mqtt_username"
+#define CONFIG_MQTT_PASSWORD "your_mqtt_password"
+#define CONFIG_MQTT_CLIENT_ID "computer_name_pc_keyboard"
+
+// Debug
+#define CONFIG_DEBUG false

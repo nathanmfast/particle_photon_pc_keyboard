@@ -1,0 +1,5 @@
+# don't want to commit actual config with your own credentials
+config.h
+
+# don't commit the compiled firmware file, this will need to be customized via config anyways
+firmware.bin
