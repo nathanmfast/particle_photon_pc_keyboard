@@ -19,7 +19,7 @@ To get this up and running, you'll need to create your configuration file, then 
 You'll need to create your own `config.h` in the `src/` folder modeled after `config.h.example` (which is also in the `src/` folder).  
 
 The config requires you to provide:  
-- your WiFi credentials (as well as optional alternate WiFi credentials for redundancy / easy of password changes)
+- your WiFi credentials (as well as optional alternate WiFi credentials for redundancy / ease of password changes)
 - your MQTT server info
 
 ## Compile and Flash Firmware
