@@ -9,7 +9,9 @@ Particle firmware for Photon to use it as a USB keyboard with MQTT support.
 ## Login
 My primary purpose for creating this was for the `/login` topic. The payload for this topic is a string for your pin. The sequence of key presses and pin entry has been designed to cover every scenario I've encountered for what state the Windows 10 lock screen might be in when trying to run the login sequence, and the timing of those events prevents pin entry from reaching whatever application you have running behind LoginUI (since it takes a moment for the login screen to close after successful pin entry). I use this to unlock my computer via Home Assistant scripts. 
 
-Watch: [Login Demo Video](assets/login_demo.mov)
+Demo:  
+[![Watch Login Demo on YouTube](assets/login_demo_thumbnail.jpg)](http://www.youtube.com/watch?v=jj7VJtDAOFI)  
+([Download Video](assets/login_demo.mov))
 
 ## Tap
 This provides the ability to perform single key presses. I intend to use this to create a virtual keyboard in Home Assistant.
